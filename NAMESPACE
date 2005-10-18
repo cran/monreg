@@ -1,0 +1,4 @@
+export("monreg")
+export("monvardiff")
+export("monvarresid")
+useDynLib("monreg")
