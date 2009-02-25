@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include <malloc.h>
+#include <stdlib.h> // was malloc.h
 
 double max(double x, double y){
 	if(x > y) return x;

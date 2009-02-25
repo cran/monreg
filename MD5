@@ -1,0 +1,9 @@
+bc77a892d4d16212f37a805191dac5ca *DESCRIPTION
+e4682b75f8380f6ea0ae9f6624a196db *NAMESPACE
+3ddc436d6751df5635bb1be98689b07c *R/monreg.r
+948ced74ef707041afe0368c498b3ae2 *R/monvardiff.r
+c72f64f938b850f5c1d7dae6d663b7a1 *R/monvarresid.r
+f5ca3c10a0500378d056cb850768d68f *man/monreg.rd
+0866e8c9cdc24c242983ec35606aa1df *man/monvardiff.rd
+fc57181427dc14645034a236dd65385e *man/monvarresid.rd
+ea65636a516615f3bd4f18fdeb6267ae *src/monreg.c

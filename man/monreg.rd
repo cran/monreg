@@ -25,7 +25,7 @@ nonparametric regression estimator (e.g. Nadaraya-Watson estimator)}
 computed}
 \item{hd}{bandwith of kernel \eqn{K_d} of the density estimation step}
 \item{Kd}{Kernel for the density estimation step (monotonization step).
-'epanech' for "Epanechnikov, 'rectangle' for rectangle, 'biweight' for biweight,
+'epanech' for Epanechnikov, 'rectangle' for rectangle, 'biweight' for biweight,
 'triweight' for triweight, 'triangle' for triangle, 'cosine' for cosine kernel}
 \item{hr}{bandwith of kernel \eqn{K_r} of the regression estimation step.}
 \item{Kr}{Kernel for the regression estimation step (unconstrained estimation).
@@ -72,17 +72,11 @@ Finally, the monotone estimate achieved by inversion of \eqn{\hat m_I^{-1}}.}
   \item{estimation}{the monotone estimate at the design points \eqn{t}}
   ...
 }
-\references{
-}
 \author{
 This R Package was developed by Kay Pilz and Stefanie Titoff. Earlier developements of the estimator were made by Holger Dette and Kay Pilz.
 }
-\note{
-}
 \seealso{
 \code{monvardiff} and \code{monvarresid} for monotone variance function estimation.
-}
-\examples{
 }
 \keyword{ nonparametric }
 \keyword{ smooth }

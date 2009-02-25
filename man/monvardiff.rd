@@ -28,7 +28,7 @@ computed}
 'triweight' for triweight, 'triangle' for triangle, 'cosine' for cosine kernel}
 \item{hd}{bandwith of kernel \eqn{K_d} of the density estimation step}
 \item{Kd}{Kernel for the density estimation step (monotonization step).
-'epanech' for "Epanechnikov, 'rectangle' for rectangle, 'biweight' for biweight,
+'epanech' for Epanechnikov, 'rectangle' for rectangle, 'biweight' for biweight,
 'triweight' for triweight, 'triangle' for triangle, 'cosine' for cosine kernel}
 \item{degree}{determines the method for the unconstrained variance estimation.
 '0' for the classical Nadaraya-Watson estimate, '1' for the local linear estimate.
@@ -71,17 +71,11 @@ Finally, the monotone estimate is achieved by inversion of \eqn{\hat s_I^{-1}}.}
   \item{inverse}{indicates, if the origin variance function or its inverse has been estimated}
   \item{estimation}{the monotone estimate at the design points \eqn{t}}
 }
-\references{
-}
 \author{
 This R Package was developed by Kay Pilz and Stefanie Titoff. Earlier developements of the estimator were made by Holger Dette and Kay Pilz.
 }
-\note{
-}
 \seealso{
 \code{monreg} for monotone regression function estimation and \code{monvarresid} for monotone variance function estimation by nonparametric residuals.
-}
-\examples{
 }
 \keyword{
 nonparametric}

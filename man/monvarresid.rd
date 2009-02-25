@@ -85,20 +85,12 @@ Finally, the monotone estimate is achieved by inversion of \eqn{\hat s_I^{-1}}.}
   \item{inverse}{indicates, if the origin variance function or its inverse has been estimated}
   \item{estimation}{the monotone estimate for the variance function at the design points \eqn{t}}
 }
-\references{
-}
 \author{
 This R Package was developed by Kay Pilz and Stefanie Titoff. Earlier developements of the estimator were made by Holger Dette and Kay Pilz.
-}
-\note{
 }
 \seealso{
 \code{monreg} for monotone regression function estimation and \code{monvardiff} for monotone variance function estimation by differences.
 }
-\examples{
-}
-\keyword{
-nonparametric}
-\keyword{ smooth}
-\keyword{ regression
-}
+\keyword{nonparametric}
+\keyword{smooth}
+\keyword{regression}
