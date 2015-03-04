@@ -81,3 +81,9 @@ This R Package was developed by Kay Pilz and Stefanie Titoff. Earlier developeme
 \keyword{ nonparametric }
 \keyword{ smooth }
 \keyword{ regression }
+\examples{
+x <- rnorm(100)
+y <- x + rnorm(100)
+mon1 <- monreg(x, y, hd = .5, hr = .5)
+plot(mon1$t, mon1$estimation)
+}

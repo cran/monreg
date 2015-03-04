@@ -8,7 +8,8 @@ monvardiff provides a strictly monotone estimator of the variance
 function based on the nonparametric regression model.
 }
 \usage{
-monvardiff(x,y,a=min(x),b=max(x),N=length(x),t=length(x),r=2,hr,Kr="epanech",hd,Kd="epanech",degree=1,inverse=0,monotonie="isoton")
+monvardiff(x,y,a=min(x),b=max(x),N=length(x),t=length(x),r=2,hr,Kr="epanech",
+           hd,Kd="epanech",degree=1,inverse=0,monotonie="isoton")
 }
 \arguments{
 \item{x}{vector containing the x-values (design points) of a sample}

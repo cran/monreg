@@ -8,7 +8,8 @@ monvarresid provides a strictly monotone estimator of the variance
 function based on the nonparametric regression model.
 }
 \usage{
-monvarresid(x,y,a=min(x),b=max(x),N=length(x),t=length(x),h,K="epanech",hd,Kd="epanech",hr,Kr="epanech",mdegree=1,sdegree=1,inverse=0,monotonie="isoton")
+monvarresid(x,y,a=min(x),b=max(x),N=length(x),t=length(x),h,K="epanech",hd,Kd="epanech",
+            hr,Kr="epanech",mdegree=1,sdegree=1,inverse=0,monotonie="isoton")
 }
 \arguments{
 \item{x}{vector containing the x-values (design points) of a sample}
