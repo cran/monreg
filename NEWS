@@ -1,0 +1,7 @@
+1.4
+
+- Add the paper reference that monreg is based on to description field.
+- Move development to GitLab and update URLs accordingly.
+- Register native routines.
+- Change maintainer e-mail address.
+

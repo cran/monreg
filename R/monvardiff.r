@@ -58,8 +58,8 @@ monvardiff <- function(x,y,a=min(x),b=max(x),N=length(x),t=length(x),r=2,hr,Kr="
         else{
         if(length(degree) > 1 && length(degree) != length(N)) print("lengths of N and sdegree differ")
         else{
-            if(monotonie == "antiton") temp <- .C("sdach2_a_inv",xs,y,z,t,lx,lz,lt,r,tflag,hr,hd,Kern0,Kern1,degree,ldeg,inverse,erg)
-            else temp <- .C("sdach2_i_inv",xs,y,z,t,lx,lz,lt,r,tflag,hr,hd,Kern0,Kern1,degree,ldeg,inverse,erg)
+            if(monotonie == "antiton") temp <- .C("c_sdach2_a_inv",xs,y,z,t,lx,lz,lt,r,tflag,hr,hd,Kern0,Kern1,degree,ldeg,inverse,erg)
+            else temp <- .C("c_sdach2_i_inv",xs,y,z,t,lx,lz,lt,r,tflag,hr,hd,Kern0,Kern1,degree,ldeg,inverse,erg)
             }
         }
     }

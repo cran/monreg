@@ -57,8 +57,8 @@ monreg <- function(x,y,a=min(x),b=max(x),N=length(x),t=length(x),hd,Kd="epanech"
         else{
         if(length(degree) > 1 && length(degree) != length(N)) print("lengths of N and degree differ")
         else{
-            if(monotonie == "antiton") temp <- .C("mdach_a_inv",xs,y,z,t,lx,lz,lt,tflag,hd,hr,Kern1,Kern2,degree,ldeg,inverse,erg)
-            else temp <- .C("mdach_i_inv",xs,y,z,t,lx,lz,lt,tflag,hd,hr,Kern1,Kern2,degree,ldeg,inverse,erg)
+            if(monotonie == "antiton") temp <- .C("c_mdach_a_inv",xs,y,z,t,lx,lz,lt,tflag,hd,hr,Kern1,Kern2,degree,ldeg,inverse,erg)
+            else temp <- .C("c_mdach_i_inv",xs,y,z,t,lx,lz,lt,tflag,hd,hr,Kern1,Kern2,degree,ldeg,inverse,erg)
             }
         }
     }

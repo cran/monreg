@@ -62,8 +62,8 @@ monvarresid <- function(x,y,a=min(x),b=max(x),N=length(x),t=length(x),h,K="epane
         else{
         if(length(sdegree) > 1 && length(sdegree) != length(N)) print("lengths of N and sdegree differ")
         else{
-            if(monotonie == "antiton") temp <- .C("sdach_a_inv",xs,y,z,t,lx,lz,lt,tflag,h,hd,hr,Kern0,Kern1,Kern2,mdegree,lmdeg,sdegree,lsdeg,inverse,erg)
-            else temp <- .C("sdach_i_inv",xs,y,z,t,lx,lz,lt,tflag,h,hd,hr,Kern0,Kern1,Kern2,mdegree,lmdeg,sdegree,lsdeg,inverse,erg)
+            if(monotonie == "antiton") temp <- .C("c_sdach_a_inv",xs,y,z,t,lx,lz,lt,tflag,h,hd,hr,Kern0,Kern1,Kern2,mdegree,lmdeg,sdegree,lsdeg,inverse,erg)
+            else temp <- .C("c_sdach_i_inv",xs,y,z,t,lx,lz,lt,tflag,h,hd,hr,Kern0,Kern1,Kern2,mdegree,lmdeg,sdegree,lsdeg,inverse,erg)
             }
         }
     }
