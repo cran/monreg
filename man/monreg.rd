@@ -37,7 +37,7 @@ As well degree can be the vector of the unconditional estimator provided by the
 user for the design points given in the vector \code{N}}
 \item{inverse}{For '0' the original regression function is estimated, for '1'
 the inverse of the regression function is estimated.}
-\item{monotonie}{Determines the type of monotonicity. 'isoton´ if the regression
+\item{monotonie}{Determines the type of monotonicity. 'isotonÂ´ if the regression
 function is assumed to be isotone, 'antinton' if the regression function is assumed to be antitone.}
 }
 \details{

@@ -1,10 +1,10 @@
-2636a9ab3c24b9bb9e50ee92272a57d4 *DESCRIPTION
+00cc5afc81db0e227e5fac147d3eec6c *DESCRIPTION
 5a7855844a0a732e531a32b55d21105d *NAMESPACE
 3b18be429ee9e6fd3d996cc63bacc8e9 *NEWS
-790ad96b1eea04c21448c2df33adbe8b *R/monreg.r
-88480fa94b362fb13f490efb95864294 *R/monvardiff.r
-3554c52beb38b6737a2309a6db7e2868 *R/monvarresid.r
-931f8e65d99a5e393758d1606d4617a0 *man/monreg.rd
+082bf255d0f09155796b7077c2bb3d32 *R/monreg.r
+0292d9298486c68021c26f231cde028d *R/monvardiff.r
+bb6caa4e1319a93c761cd6d38fd83793 *R/monvarresid.r
+e45d7b89eadff0e80cfc7b1decb8ce6b *man/monreg.rd
 e3a89bb05cbe0af49c5ca0b6597ba165 *man/monvardiff.rd
 5ab1b55ca1be724c21c49f7dffc68eb6 *man/monvarresid.rd
 ea65636a516615f3bd4f18fdeb6267ae *src/monreg.c

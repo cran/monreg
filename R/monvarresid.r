@@ -1,13 +1,13 @@
-# Erl‰uterung:
+# Erl√§uterung:
 # ============
 # x,y       : Stichprobe
 # a,b       : Grenzen des Definitionsbereichs
-# N         : L‰nge des Vektors oder Vektor des unbedingten Sch‰tzers m^dach
-# t         : L‰nge des Vektors oder Vektor der Auswertungsstellen des monotonen Sch‰tzers m^dachi_I (invers)
+# N         : L√§nge des Vektors oder Vektor des unbedingten Sch√§tzers m^dach
+# t         : L√§nge des Vektors oder Vektor der Auswertungsstellen des monotonen Sch√§tzers m^dachi_I (invers)
 # h,hd,hr   : Bandbreiten
 # K,Kd,Kr   : Kerne
-# degree    : Wahl des unbedingten Sch‰tzers (0 = Nadaraya Watson, 1 = Local Linear)
-# inverse   : Flag ob origin‰re Regressionsfunktion (inverse = 0) oder inverse (inverse = 1) gesch‰tzt werden soll
+# degree    : Wahl des unbedingten Sch√§tzers (0 = Nadaraya Watson, 1 = Local Linear)
+# inverse   : Flag ob origin√§re Regressionsfunktion (inverse = 0) oder inverse (inverse = 1) gesch√§tzt werden soll
 
 
 monvarresid <- function(x,y,a=min(x),b=max(x),N=length(x),t=length(x),h,K="epanech",hd,Kd="epanech",hr,Kr="epanech",mdegree=1,sdegree=1,inverse=0,monotonie="isoton"){
